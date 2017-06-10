@@ -22,6 +22,9 @@ public class ClienteController {
             return false;
         }
     }
+    public void mostrarTodosCliente(){
+        
+    }
     public static void main(String[] args){
         //crie um objeto da classe ClienteController
         ClienteController obj1 = new ClienteController();
@@ -29,6 +32,7 @@ public class ClienteController {
         obj1.inserir(11, "Pietra");
         obj1.inserir(12, "Maila");
         obj1.inserir(13, "Patricia");
+        obj1.mostrarTodosClientes();
         //executar e conferir no BD
     }
 }
