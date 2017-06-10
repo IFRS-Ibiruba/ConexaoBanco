@@ -6,7 +6,7 @@ public class Aula10062017_conexaoBanco {
 
     
     public static void main(String[] args) {
-        System.out.println("Ola mundo!");
+        System.out.println("Ola mundo    !");
     }
     
 }
